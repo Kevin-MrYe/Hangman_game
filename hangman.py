@@ -3,8 +3,6 @@ Make sure you complete all the TODOs in this file.
 The prints have to contain the same text as indicated, don't add any more prints,
 or you will get 0 for this assignment.
 '''
-from cgi import print_arguments
-from pickle import APPEND
 import random
 
 class Hangman:
@@ -172,6 +170,7 @@ def play_game(word_list):
             exit()
         elif game.num_lives == 0:
             print(f"You lost! The word was {game.word}")
+            
     # TODO 1: To test this task, you can call the ask_letter method
     # TODO 2: To test this task, upon initialization, two messages should be printed 
     # TODO 3: To test this task, you call the ask_letter method and check if the letter is in the word
