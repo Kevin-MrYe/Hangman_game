@@ -2,6 +2,7 @@
 
 # Milestone 1
 In this milestone, the ask_letter() function was implemented, which will ask the user for a letter. The flow chart is as follows:
+![This is an image](https://github.com/Kevin-MrYe/Hangman_game/blob/main/images/ask_letter.png)
 
 # Milestone 2
 In this milestone, the attributes were added to the __init__ method. Then the ask_letter() function was updated to whether the typed letter has been tried already.
@@ -17,7 +18,7 @@ In this milestone, the attributes were added to the __init__ method. Then the as
 5.**list_letters**: A list of the letters that have already been tried
 
 The flow chart is as follows:
-
+![This is an image](https://github.com/Kevin-MrYe/Hangman_game/blob/main/images/ask_letter%20updated.png)
 
 # Milestone 3
 In this milestone, the check_letter() function was implemented, which will check if the letter is in the word. If it is, it replaces the '\_' in the word_gressed list with the letter. If it is not, it reduces the number of lives by 1.
@@ -32,7 +33,7 @@ for i in range(0,len(self.word)):
 ```
 
 The flow chart is as follows:
-
+![This is an image](https://github.com/Kevin-MrYe/Hangman_game/blob/main/images/check_letter.png)
 
 
 # Milestone 4
